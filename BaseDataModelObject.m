@@ -973,6 +973,10 @@ NSString *SDMSTObjcCreateFormatter(struct loader_objc_lexer_token *token, uintpt
 			decode = NULL;
 
 			[debugDescription appendFormat:@"\n%s: %@", property_name, typeEncodingFormatter];
+			
+			if (ivar_name != nil) {
+				free(ivar_name);
+			}
 
 			if (property_type != nil) {
 				free(property_type);
