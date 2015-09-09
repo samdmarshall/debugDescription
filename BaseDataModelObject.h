@@ -3,7 +3,7 @@
  BaseDataModelObject.h
  debugDescription
  
- Copyright (c) 2015, Sam Marshall
+ Copyright (c) 2015, Samantha Marshall
  All rights reserved.
  
  Redistribution and use in source and binary forms, with or without
@@ -16,7 +16,7 @@
 	notice, this list of conditions and the following disclaimer in the
 	documentation and/or other materials provided with the distribution.
  
- 3. Neither the name of Sam Marshall nor the names of its contributors may
+ 3. Neither the name of Samantha Marshall nor the names of its contributors may
 	be used to endorse or promote products derived from this software
 	without specific prior written permission.
  

@@ -2,8 +2,8 @@
 //  AutoDescription.h
 //  debugDescription-Demo
 //
-//  Created by Sam Marshall on 5/9/15.
-//  Copyright (c) 2015 Sam Marshall. All rights reserved.
+//  Created by Samantha Marshall on 5/9/15.
+//  Copyright (c) 2015 Samantha Marshall. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -19,8 +19,8 @@
 @property (nonatomic, readwrite) struct Position pos;
 @property (nonatomic, strong) NSDictionary *dict;
 
-//@property (nonatomic, readwrite) void * ptr;
-//@property (nonatomic, strong) NSArray *objects;
-//@property (nonatomic, readwrite) BOOL isAvailable;
+@property (nonatomic, readwrite) void * ptr;
+@property (nonatomic, strong) NSArray *objects;
+@property (nonatomic, readwrite) BOOL isAvailable;
 
 @end

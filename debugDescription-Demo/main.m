@@ -2,8 +2,8 @@
 //  main.m
 //  debugDescription-Demo
 //
-//  Created by Sam Marshall on 5/9/15.
-//  Copyright (c) 2015 Sam Marshall. All rights reserved.
+//  Created by Samantha Marshall on 5/9/15.
+//  Copyright (c) 2015 Samantha Marshall. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -35,9 +35,9 @@ void SetDefaults(id obj)
 	};
 	[obj setDict:dict];
 
-	//	[obj setPtr:(void*)0x41414141];
-	//	[obj setObjects:@[@"hello", @", ", @"world", @"!"]];
-	//	[obj setIsAvailable:NO];
+	[obj setPtr:(void*)0x41414141];
+	[obj setObjects:@[@"hello", @", ", @"world", @"!"]];
+	[obj setIsAvailable:NO];
 }
 
 int main(int argc, const char *argv[])
